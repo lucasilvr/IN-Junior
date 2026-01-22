@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center; 
+  padding-top: 50px;     
+}
+
+
+.bookDetailsWrapper {
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-start; 
+}
+
+.backButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px; 
+
+}
+
+.bookDetails {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0; 
+}
+
+.coverWrapper {
+  background-color: #F4F4FF;
+  padding: 60px 50px 60px 60px;
+}
+
+.coverWrapper img {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.info h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.info h2 {
+  font-size: 32px;
+  color: #00000099;
+}
+
+.info h3 {
+  font-size: 24px;
+  color: #090937;
+  margin-top: 70px;
+}
+
+.info p {
+  font-size: 20px;
+  color: #09093799;
+  max-width: 820px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.addToCartButton {
+  width: 400px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ef6b4a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: 80px;
+  
+}
