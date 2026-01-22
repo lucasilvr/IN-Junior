@@ -1,0 +1,51 @@
+.cardPrincipal {
+  width: 356px;
+  height: 461px;
+  background-color: #0e0e1b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parteCima {
+  width: 100%;
+  height: 236px;
+  display: flex;
+}
+
+.parteCima img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.circle {
+  width: 115px;
+  height: 115px;
+  background-color: #d9d9d9;
+  border: 5px solid #004b96;
+  border-radius: 50%;
+  margin-top: -65px; /* acredito que eu não deveria ter feito dessa forma */
+  z-index: 1;
+  object-fit: cover;
+}
+
+.parteBaixo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.parteBaixo h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.parteBaixo h3 {
+  font-size: 24px;
+  color: #999999;
+  margin-top: 10px;
+  font-weight: 300;
+}

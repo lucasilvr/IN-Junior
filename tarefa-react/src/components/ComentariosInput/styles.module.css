@@ -1,0 +1,112 @@
+.comentarioBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 80px;
+}
+
+.comentarioBox input {
+  height: 112px;
+  width: 870px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.comentariosTitulo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btnComentar {
+  background: #036fdb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 139px;
+  height: 48px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.inputComentario {
+  padding-left: 10px;
+  background-color: #dddddd;
+  padding-top: 8px;
+}
+
+.inputComentario::placeholder {
+  position: absolute;
+  top: 15px;
+  font-size: 16px;
+}
+
+.comentarios {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comentarioHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.comentarioBloco {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.comentarioCaixa {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.comentarioFoto {
+  width: 62px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comentario {
+  background: #181828;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 810px;
+  padding: 10px 0 15px 0;
+  box-sizing: border-box;
+}
+
+.likeArea {
+  margin-top: 8px;
+  padding-left: 77px;
+}
+
+.comentarioTexto {
+  margin-top: 10px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.comentarioNome {
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 15px;
+  
+}
+
+.comentarioData {
+  color: #999999;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 5px;
+}

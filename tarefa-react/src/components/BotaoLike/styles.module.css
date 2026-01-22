@@ -1,0 +1,19 @@
+.likeBotao {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  color: #ffffff;
+}
+
+.liked {
+  color: #007DFA;
+}
+
+.like {
+  width: 18px;
+  height: 18px;
+}

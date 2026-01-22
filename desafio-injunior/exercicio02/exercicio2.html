@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Fatorial</title>
+    <script>
+        function fatorial(num) {
+            let fatorial = 1; 
+            for (let i = 1; i <= num; i++) { 
+                fatorial *= i;
+            }
+            return fatorial;
+        }
+
+        let num;
+
+        do {
+            num = parseInt(prompt("Digite um número inteiro positivo: "));
+        } while (num <= 0 || !Number.isInteger(num));
+
+        let resultado = fatorial(num);
+        console.log(`O fatorial de ${num} é ${resultado}`);
+    </script>
+</head>
+<body>
+</body>
+</html>

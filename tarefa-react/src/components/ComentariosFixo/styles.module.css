@@ -1,0 +1,69 @@
+.comentarios {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.comentarioBloco {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.comentarioCaixa {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.comentarioFoto {
+  width: 62px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comentario {
+  background: #181828;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 810px;
+  padding: 10px 0 18px 0;
+  box-sizing: border-box;
+  margin-bottom: 7px;
+}
+
+.comentarioHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.comentarioTexto {
+  margin-top: 10px;
+  color: #fff;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.comentarioNome {
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.comentarioData {
+  color: #999999;
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+
+.likeArea {
+  padding-left: 75px;
+}

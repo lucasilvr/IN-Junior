@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let frase = prompt("Digite uma frase: ");
+    let frase2 = frase.toLowerCase().split(' ').join('');
+    let fraseContraria = frase2.split('').reverse().join('');
+
+    if (frase2 == fraseContraria) {
+        console.log("A frase é um palíndromo");
+    }
+    else{
+        console.log("A frase digitada não é um palíndromo");
+    }
+    </script>
+</body>
+</html>
